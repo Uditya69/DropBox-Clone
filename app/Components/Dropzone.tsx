@@ -71,7 +71,7 @@ function Dropzone() {
         onDrop={onDrop}
       >
         {({ getRootProps, getInputProps, isDragActive, isDragReject, fileRejections }) => (
-          <section className="m-4">
+          <section className="m-4 ">
             <div
               {...getRootProps()}
               className={cn(
